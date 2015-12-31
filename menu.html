@@ -7,12 +7,17 @@
 $(function(){
   $("#header").load("header.html"); 
   $("#footer").load("footer.html"); 
+  $('#nav a').on('click', function (e) {
+    e.preventDefault();
+   var page = $(this).attr('href');
+  $('#content').load(page);
+   });
 });
 </script> 
 </head>
 <body>
 <div id="header"></div>
-<!--Remaining section-->
+ <div id="content">
 <footer></footer>
 </body>
 </html>
