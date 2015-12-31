@@ -19,13 +19,40 @@ $(function(){
 </script> 
 </head>
 <body>
+<!-- have header on main page 
 <div id="header"></div>
+-->
 <div id="nav">
-        <a href="map.html">Map</a>
-        <a href=gallery.html">Gallery</a>
-        <a href="page3.html">Page 3</a>
-        <a href="page4.html">Page 4</a>
-        <a href="page5.html">Page 5</a>
+        <label for="show-menu" class="show-menu">Menu</label>
+	<input type="checkbox" id="show-menu" role="button">
+		<ul id="menu">
+		<li><a href="#">Home</a></li>
+		<li>
+			<a href="#">About ￬</a>
+			<ul class="hidden">
+				<li><a href="#">Who We Are</a></li>
+				<li><a href="#">What We Do</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Gallery ￬</a>
+			<ul class="hidden">
+				<li><a href="gallery.html">Engagement</a></li>
+				<li><a href="#">Other Adventures</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="rsvp.html">RSVP </a>
+		</li>
+		<li>
+		<li>
+			<a href="map.html">Venue </a>
+		</li>
+		<li>
+			<a href="#">Registry </a>
+		</li>
+		<li><a href="#">Contact</a></li>
+	</ul>
     </div>
  <div id="content"></div>
 <footer></footer>
