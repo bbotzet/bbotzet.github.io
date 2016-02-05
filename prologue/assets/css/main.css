@@ -1582,7 +1582,7 @@
 		font-weight: 300;
 		color: #666;
 		line-height: 1.5em;
-		text-shadow: horizontal-offset vertical-offset blur color;
+		
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1597,6 +1597,7 @@
 	h2 {
 		font-size: 2em;
 		letter-spacing: -1px;
+		text-shadow: horizontal-offset vertical-offset blur color;
 	}
 
 		h2.alt {
@@ -1613,6 +1614,7 @@
 
 	header {
 		margin: 0 0 2em 0;
+		text-shadow: horizontal-offset vertical-offset blur color;
 	}
 
 		header > p {
