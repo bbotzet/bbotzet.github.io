@@ -2629,7 +2629,7 @@ Clock
 */
 body{
 	text-align: center;
-	background: #124b22;
+	--background: #124b22;
   font-family: sans-serif;
   font-weight: 100;
 }
