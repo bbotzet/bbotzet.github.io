@@ -2631,13 +2631,12 @@ body{
 	text-align: center;
 	--background: #124b22;
   font-family: sans-serif;
-  font-weight: 100;
 }
 
 h1{
   color: #ffd700;
   font-weight: 100;
-  font-size: 25px;
+  font-size: 15px;
   margin: 0px 0px 0px;
 }
 
@@ -2651,20 +2650,19 @@ h1{
 }
 
 #clockdiv > div{
-	padding: 10px;
-	border-radius: 3px;
+	padding: 5px;
+	border-radius: 5px;
 	background: #225a22;
 	display: inline-block;
 }
 
 #clockdiv div > span{
-	padding: 15px;
-	border-radius: 3px;
+	padding: 1px;
+	border-radius: 1px;
 	background: #003614;
 	display: inline-block;
 }
 
 .smalltext{
-	padding-top: 5px;
-	font-size: 16px;
+	font-size: 13px;
 }
