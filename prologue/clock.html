@@ -1,0 +1,10 @@
+<div id="clock"></div>
+<script src="assets/js/jquery.countdown.min.js"></script>
+			 <script type="text/javascript">
+3   $("#getting-started")
+4   .countdown("2016/07/02", function(event) {
+5     $(this).text(
+6       event.strftime('%D days %H:%M:%S')
+7     );
+8   });
+9 </script>
