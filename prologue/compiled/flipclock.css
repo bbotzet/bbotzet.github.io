@@ -430,9 +430,8 @@
   100% {
     opacity: 0; } }
 
-
-.flip-clock-wrapper ul {width: 20px;height: 39px;margin: 0 1px;}
-.flip-clock-wrapper ul li {line-height: 39px;}
-.flip-clock-wrapper ul li a div div.inn {border-radius: 2px;font-size: 25px;}
-.flip-clock-wrapper ul li a div.down {border-bottom-left-radius: 2px; border-bottom-right-radius: 2px;}
-.flip-clock-wrapper ul li a div.up:after {top: 19px;height: 2px;}
+.flip-clock-wrapper ul {width: 30px;height: 58px;margin: 0 2px;}
+.flip-clock-wrapper ul li {line-height: 58px;}
+.flip-clock-wrapper ul li a div div.inn {border-radius: 3px;font-size: 37px;}
+.flip-clock-wrapper ul li a div.down {border-bottom-left-radius: 3px; border-bottom-right-radius: 3px;}
+.flip-clock-wrapper ul li a div.up:after {top: 28px;height: 2px;}
