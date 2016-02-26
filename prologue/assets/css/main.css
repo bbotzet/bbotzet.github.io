@@ -2555,14 +2555,14 @@
 .entry {
     display:inline-block;
     vertical-align:top;
-    background:#13519C;
+    background:rgba(136, 136, 136, 0.69);
     color:#fff;
     padding:10px;
     font-size:12px;
     text-align:center;
     position:relative;
     border-top:4px solid #06182E;
-    border-radius:3px;
+    border-radius:8px;
     min-width:200px;
     max-width:500px;
 }
