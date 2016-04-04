@@ -24,6 +24,7 @@
 
 	body {
 		line-height: 1;
+		text-align: center;
 	}
 
 	ol, ul {
@@ -56,6 +57,7 @@
 		font-size: 75%;
 		
 	}
+	
 
 /* Box Model */
 
