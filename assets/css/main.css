@@ -47,6 +47,15 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
+	
+	p.name{
+		font-size:95%;
+		margin-bottom: 0;
+	}
+	p.party {
+		font-size: 75%;
+		
+	}
 
 /* Box Model */
 
@@ -2539,7 +2548,7 @@
 				}
 
 	}
-	/*Timetime */
+	/*Timeline */
 	
 	body {
     padding:25px;
@@ -2623,46 +2632,3 @@
     left:0;
 }
 
-
-/*
-Clock
-*/
-body{
-	text-align: center;
-	--background: #124b22;
-  font-family: sans-serif;
-}
-
-h1{
-  color: #ffd700;
-  font-weight: 100;
-  font-size: 15px;
-  margin: 0px 0px 0px;
-}
-
-#clockdiv{
-	font-family: sans-serif;
-	color: #ffd700;
-	display: inline-block;
-	font-weight: 100;
-	text-align: center;
-	font-size: 30px;
-}
-
-#clockdiv > div{
-	padding: 5px;
-	border-radius: 5px;
-	background: #225a22;
-	display: inline-block;
-}
-
-#clockdiv div > span{
-	padding: 1px;
-	border-radius: 1px;
-	background: #003614;
-	display: inline-block;
-}
-
-.smalltext{
-	font-size: 13px;
-}
