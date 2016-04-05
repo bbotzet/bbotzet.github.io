@@ -67,6 +67,7 @@
 
 						// Set this link to active
 							t.addClass('active');
+							event.preventDefault()
 
 					});
 
