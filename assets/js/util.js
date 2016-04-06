@@ -66,7 +66,7 @@
 			config = $.extend({
 
 				// Delay.
-					delay: 0,
+					delay: 500,
 
 				// Hide panel on link click.
 					hideOnClick: false,
